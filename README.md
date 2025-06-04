@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Store Rating App
 
 A full-stack application for store ratings with role-based access control.
@@ -83,3 +84,6 @@ A full-stack application for store ratings with role-based access control.
 - `POST /api/stores` - Create a new store (admin only)
 - `POST /api/ratings` - Submit a rating
 - `GET /api/ratings/user` - Get user ratings
+=======
+# Roxiller
+>>>>>>> b174c7e448ced02a4c5ac0d2f93bc4081e5817a6
