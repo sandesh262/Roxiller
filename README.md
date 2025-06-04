@@ -40,15 +40,17 @@ A full-stack application for store ratings with role-based access control.
    ```
    npm install
    ```
-3. Create a `.env` file with the following variables:
-   ```
-   DB_HOST=localhost
-   DB_USER=postgres
-   DB_PASSWORD=postgres
-   DB_NAME=roxiller_rating_db
-   DB_PORT=5432
-   JWT_SECRET=your_jwt_secret_key
-   PORT=5000
+DB_HOST=localhost
+DB_USER=your_db_username
+DB_PASSWORD=your_db_password
+DB_NAME=roxiller_rating_db
+DB_PORT=5432
+
+# JWT Configuration
+JWT_SECRET=your_jwt_secret_key_here
+
+# Server Configuration
+PORT=5000
    ```
 4. Start the server:
    ```
